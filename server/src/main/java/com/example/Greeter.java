@@ -1,19 +1,11 @@
-package com.example;
-
-/**
- * This is a class.
- */
-public class Greeter {
-
-  /**
-   * This is a constructor.
-   */
-  public Greeter() {
-
-  }
-
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
-    return String.format("Hello, %s!", someone);
-  }
+public class HelloWorld
+{
+	int a=100;
+	//System.out.print(a);
+	public static void main(String args[])
+	{
+		String str = "hello world program";
+		System.out.println(str);
+		//System.out.println(a);
+	}
 }
